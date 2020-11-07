@@ -1,0 +1,88 @@
+import pynput
+import random
+import time
+from pynput.keyboard import Key, Controller
+memetypes = ["n" , "e" , "r" , "d"]
+triviatypes = ["A" , "B" , "C" , "D"]
+phrases = ["damn", "coolio", "im rich af", "oop", "shiii", "dam it", "cmon man", "lol", "ripp",
+           "wtf", "crazy stuff", "gimme more coin", "bruh", "lmao", "what thee heck", "haha", "good bot",
+           "xd", "what do you want man?", "wow", "bad bot", "rip the laptop", "wow", "why u doin this",
+           "grinding is tough man"]
+pinkuses = ["myself", "server owner", "dank memer", "bad boy", "damn", "breh"]           
+keyboard = Controller()
+i = 0
+
+while i < 1:
+    
+    keyboard.type('pls with 9000')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls hunt')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls use sp')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(8, 9))
+    keyboard.type('pls fish')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls pm')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type(random.choice(memetypes))
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls beg')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls bet 2e3')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls slots 2e3')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls sell mm')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls buy k 9')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls trivia')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type(random.choice(triviatypes))
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls bet 1.5k')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls buy pink')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    phrase_num = random.randint(0, (len(phrases) - 1))
+    keyboard.type(phrases[phrase_num])
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls sell k')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls bet 1.5k')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls buy k 11')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls use pink')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type(random.choice(pinkuses))
+    keyboard.press(Key.enter)
+    keyboard.type('pls ri sp')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    keyboard.type('pls dep all')
+    keyboard.press(Key.enter)
+    time.sleep(random.randint(2, 3))
+    time.sleep(random.randint(2, 3))
+    time.sleep(49)
+
